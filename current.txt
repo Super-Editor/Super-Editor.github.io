@@ -1,0 +1,5 @@
+name: SuperEditor
+identifier: SuperEditor_AboutWindowIdentifier
+version: 1.2.0f1
+date: 11-1-2020
+changelog: Assets/Plugins/SuperEditor/CodeWindow/EditorResources/changelog.txt
