@@ -1,29 +1,18 @@
-# SuperEditor 2.9.7f5
+# SuperEditor 1.0.7f5
 
 ## Features
 
-- Unity 2017.3 beta support.
-- New toolbar icons (Right/Context + Click in Toolbar -> Use Icon Mode).
-- Significantly improved quad detection in ProBuilderize function.
-- ProBuilderize now able to import smoothing groups.
-- Support exporting quads to FBX format (requires Unity FbxExporter in project).
-- Newly redesigned `Smooth Groups Editor`.
-- New `Select Face Loop` and `Select Face Ring` actions.
+- Unity 2020.2 support.
 
 ## Bug Fixes
 
-- Fix possible null reference when picking ProBuilder objects.
-- Fix "Select Hole" disappearing instead of showing as disabled.
-- Fix "Extrude Face" disabled icon not matching current mode.
-- Fix Standard Vertex Color shader preventing builds on some platforms when fog is enabled.
+- Fix Reference window UI disappearing when click play.
 
 ## Changes
 
-- Don't show `pb_Lightmapping` warnings by default.
-- Smoothing groups may now extend beyond the 42 provided in the editor. Any smoothing group between 1 and 24, or greater than 42 is treated as a smooth face (currently only accessible in code).
-- Set ProBuilder Standard Vertex Color shader fallback to "Standard."
+- Change back button position
 
-# SuperEditor 2.9.5f3
+# SuperEditor 1.0.6f3
 
 ## Features
 
@@ -38,7 +27,7 @@
 
 - Unity 4.7 and 5.0 are no longer supported (2.9.4 will continue to be available for these version of Unity).
 
-# ProBuilder 2.9.4f1
+# SuperEditor 1.0.0f1
 
 ## Features
 
